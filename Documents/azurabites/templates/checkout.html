@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='checkout.css')}}">
+</head>
+<body>
+    <header>
+        <nav>
+            <li>
+                <li>
+                    <a href="{{ 'home'}}">Home</a>
+                    <a href="{{'about'}}">About</a>
+                    <a href="{{'ingredients'}}">Ingridients</a>
+                    <a href="{{'membership'}}">Memberships</a>
+                    <a href="{{'login'}}">Login</a>
+                    <a href="{{ 'logout' }}">Logout</a>
+                    <a href="{{'orders'}}">past orders</a>
+                    <a href="{{'checkout'}}">checkout</a>
+                </li>
+            </li>
+        </nav>
+    </header>
+    <div class="checkout-container">
+        <h1>Select a Plan</h1>
+        <form method="POST" class="checkout-form">
+            <label for="plan_id" class="form-label">Choose a plan:</label>
+            <select name="plan_id" id="plan_id" class="form-select" required>
+                {% for plan in plans %}
+                    <option value="{{ plan[0] }}">{{ plan[1] }} - ${{ plan[3] }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="form-button">Proceed to Payment</button>
+        </form>
+    </div>
+</body>
+</html>

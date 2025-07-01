@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    background-color: #dfffd6; 
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #007300;
+}
+
+/* Navigation bar Links */
+header nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 20px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    /* display: block; Makes the entire area clickable */
+}
+
+header nav li a:hover {
+    color: #ffffff;
+    background-color: #007300;
+    border-radius: 5px;
+}
+
+/* Container */
+.checkout-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4caf50;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+/* Select */
+.form-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Button */
+.form-button {
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}

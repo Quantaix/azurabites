@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    background-color: #dfffd6; 
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #007300;
+}
+
+/* Navigation bar Links */
+header nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 20px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    /* display: block; Makes the entire area clickable */
+}
+
+header nav li a:hover {
+    color: #ffffff;
+    background-color: #007300;
+    border-radius: 5px;
+}
+
+
+.mission {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+    padding: 40px;
+    background-color: #fff;
+    gap: 10px;
+    background: linear-gradient(to right, #fff, #4f504faf);
+    box-shadow: 0px 4px 6px rgba(109, 108, 108, 0.164);
+}
+
+.mission h2 {
+    color: #a0522d;
+    /* Brownish color for the heading */
+    font-size: 2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.mission p {
+    color: #333;
+    font-size: 16px;
+    max-width: 50%;
+    line-height: 1.8;
+    margin-left: 150px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 10px;
+    background-color: #fff;
+    background: linear-gradient(to right, #fff, #4c4e4c8c);
+}
+
+.values h2 {
+    color: #a0522d;
+    /* Brownish color for the heading */
+    font-size: 2rem;
+    text-align: right;
+    /* Align text to the right */
+    display: flex;
+    justify-content: center;
+    /* Center the content inside the flex container */
+    padding: 10px;
+    width: 100%;
+    /* Make sure it stretches across the available space */
+}
+
+.values p {
+    color: #333;
+    font-size: 16px;
+    max-width: 50%;
+    line-height: 1.8;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 10px;
+    background-color: #fff;
+    background: linear-gradient(to right, #fff, #4c4e4c8c);
+}
+
+.work h2 {
+    color: #a0522d;
+    /* Brownish color for the heading */
+    font-size: 2rem;
+    text-align: left;
+    /* Align text to the right */
+    display: flex;
+    justify-content: center;
+    /* Center the content inside the flex container */
+    padding: 10px;
+    width: 100%;
+    margin-left: -60px;
+}
+
+.work p {
+    color: #333;
+    font-size: 16px;
+    max-width: 50%;
+    line-height: 1.8;
+    display: flex;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.staff {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #fff;
+    margin-left: -168px;
+    background: linear-gradient(to right, #fff, #4c4e4c8c);
+}
+
+.staff h2 {
+    color: #a0522d;
+    /* Brownish color for the heading */
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    /* Center the content inside the flex container */
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.staff p {
+    margin-left: -92px;
+}
+
+.staff img {
+    float: left;
+    padding: 10px;
+    width: 150px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 10px;
+    align-content: center;
+    background-color: #fff;
+    /* margin-left: -168px; */
+    background: linear-gradient(to right, #fff, #4c4e4c8c);
+}
+
+.gallery img {
+    width: 90%;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+
+}

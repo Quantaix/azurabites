@@ -1,0 +1,80 @@
+1. Homepage
+Purpose: Introduce the service, highlight subscription benefits, and direct users to explore more.
+
+Elements:
+
+Hero Section: Eye-catching banner with a tagline (e.g., "Healthy Lunches Delivered to Your Desk").
+Call-to-Action (CTA): Buttons for "View Plans," "Sign Up," or "Learn More."
+Features Section: List key benefits (e.g., "Fresh Ingredients," "Customizable Plans").
+Testimonials: Quotes or reviews from satisfied customers.
+Footer: Contact information, social media links, and site navigation links.
+2. About Page
+Purpose: Explain the mission and values of your service.
+
+Elements:
+
+Mission Statement: Why the business exists.
+Team Section: Introduce the team (optional).
+How It Works: A brief explanation of the subscription process.
+Images or Videos: Visuals of meals, delivery process, or team members.
+3. Membership Page
+Purpose: Showcase subscription plans and enable users to subscribe.
+
+Elements:
+
+Plan Details: Three cards or sections detailing each plan (e.g., Basic, Standard, Premium).
+Price
+Features (e.g., number of meals per week, ingredient customization).
+Subscribe Button: Redirect to login/register or payment gateway.
+FAQs Section: Address common questions about the plans.
+4. My Membership Page
+Purpose: Allow users to manage their subscriptions.
+
+Elements:
+
+Current Plan Information: Show the user's current plan details.
+Billing Information: Payment history or subscription renewal date.
+Upgrade/Downgrade Option: Button to change plans.
+Cancel Subscription: A clear option to unsubscribe.
+5. Ingredients Selection Page
+Purpose: Let users customize their meals.
+
+Elements:
+
+Meal Selection Form: Dropdowns, checkboxes, or radio buttons to choose ingredients.
+Categories like Protein, Vegetables, Carbs, etc.
+Meal Preview: Display selected ingredients visually.
+Save Preferences Button: Submit user choices to the server.
+Note Section: For dietary restrictions or special requests.
+6. Login/Register Page
+Purpose: Authenticate users for personalized access.
+
+Elements:
+
+Login Form: Email, password fields, and "Forgot Password" link.
+Register Form: Fields for name, email, password, and confirm password.
+CTA: Buttons to toggle between Login and Register forms.
+7. Admin Panel
+Purpose: Manage users, subscriptions, and meal preferences.
+
+Elements:
+
+Dashboard: Overview of total users, active subscriptions, and recent activity.
+User Management: View, edit, or delete user accounts.
+Subscription Management: Update or cancel user subscriptions.
+Ingredients Management: Add, edit, or remove ingredients from the selection list.
+Orders Summary: View meal preferences and generate a delivery schedule.
+8. User Panel
+Purpose: Personalized space for users.
+
+Elements:
+
+Dashboard: Display meal schedule, current subscription details, and quick links.
+Update Preferences: Button to redirect to the ingredients selection page.
+Support Section: Link to contact support or FAQs.
+Logout Button: To log out of the account.
+Additional Considerations
+Navigation Bar (Global): Links to all main pages and login/logout.
+Responsive Design: Ensure the site works on both desktop and mobile devices.
+Database Integration: Store user accounts, subscription details, and meal preferences.
+Payment Gateway: For subscription transactions.

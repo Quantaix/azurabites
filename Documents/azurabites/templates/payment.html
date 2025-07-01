@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='payment.css')}}">
+</head>
+<body>
+    <header>
+        <nav>
+            <li>
+                <li>
+                    <a href="{{ 'home'}}">Home</a>
+                    <a href="{{'about'}}">About</a>
+                    <a href="{{'ingredients'}}">Ingridients</a>
+                    <a href="{{'membership'}}">Memberships</a>
+                    <a href="{{'login'}}">Login</a>
+                    <a href="{{ 'logout' }}">Logout</a>
+                    <a href="{{'orders'}}">past orders</a>
+                    <a href="{{'checkout'}}">checkout</a>
+                </li>
+            </li>
+        </nav>
+    </header>
+    <div class="payment-container">
+        <h1>Complete Your Order</h1>
+
+        <h2>Plan: {{ plan[1] }}</h2>
+        <p><strong>Ingredients:</strong> {{ plan[2] }}</p>
+        <p><strong>Price:</strong> ${{ '{:.2f}'.format(plan[3]) }}</p>
+
+        <form method="POST" class="payment-form">
+            <label for="payment_method" class="form-label">Payment Method:</label>
+            <select name="payment_method" id="payment_method" class="form-select" required>
+                <option value="Credit Card">Credit Card</option>
+                <option value="PayPal">PayPal</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+            </select>
+
+            <label for="address" class="form-label">Address:</label>
+            <textarea name="address" id="address" class="form-textarea" required></textarea>
+
+            <label for="date_purchased" class="form-label">Date of Purchase:</label>
+            <input type="date" name="date_purchased" id="date_purchased" class="form-input" required>
+
+            <button type="submit" class="form-button">Complete Payment</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #007300;
+    text-align: center;
+}
+
+header nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    /* display: block; Makes the entire area clickable */
+}
+
+header nav li a:hover {
+    color: #ffffff;
+    background-color: #007300;
+    border-radius: 5px;
+}
+section{
+    list-style-type: none;
+}
+.meats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #ffffffd4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgba(255, 255, 0, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.meats img{
+    width: 200px;
+}
+.Vegetables {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* align-content: center; */
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to left, rgba(255, 255, 0, 0.8), rgba(255, 255, 255, 0.2));
+}
+.Vegetables img{
+    width: 250px;
+}
+.fruits {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgba(255, 255, 0, 0.8), rgba(255, 255, 255, 0.2));
+}
+.fruits img{
+    width: 200px;
+}
+.special{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),#2f77c3)
+}
+.special img{
+    width: 250px;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.notice{
+    background-color: #28a7467f;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  

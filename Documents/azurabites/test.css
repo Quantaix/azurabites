@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fff5;
+    color: #333;
+    list-style-type: none;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #004d00;
+    padding: 10px 0;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #80ff80;
+}
+
+/* Welcome Section */
+h1 {
+    text-align: center;
+    color: #004d00;
+    margin-top: 20px;
+}
+
+/* First Section (Introduction) */
+section.first {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6ffe6;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.first button {
+    padding: 10px 20px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section.first button a {
+    color: white;
+    text-decoration: none;
+}
+
+section.first button:hover {
+    background-color: #006600;
+}
+
+/* Benefits Section */
+section.second {
+    padding: 20px;
+    background-color: #ccffcc;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.second li {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+section.second button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section.second button a {
+    color: white;
+    text-decoration: none;
+}
+
+section.second button:hover {
+    background-color: #006600;
+}
+
+/* Contact Section */
+section.third {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6ffe6;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.third button {
+    padding: 10px 20px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section.third button a {
+    color: white;
+    text-decoration: none;
+}
+
+section.third button:hover {
+    background-color: #006600;
+}
+
+/* Footer */
+section.footer {
+    background-color: #004d00;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+section.footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+section.footer a img:hover {
+    transform: scale(1.2);
+}

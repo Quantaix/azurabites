@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="static/login.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Bussiness</h1>
+    <nav>
+        <h1>Login</h1>
+        <li>
+            <li>
+                <a href="{{ 'home'}}">Home</a>
+                <a href="{{'about'}}">About</a>
+                <a href="{{'ingredients'}}">Ingridients</a>
+                <a href="{{'membership'}}">Memberships</a>
+                <a href="{{'login'}}">Login</a>
+                <a href="{{ 'logout' }}">Logout</a>
+                <a href="{{'orders'}}">past orders</a>
+                <a href="{{'checkout'}}">checkout</a>
+            </li>
+        </li>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Login to Your Account</h2>
+        <p>Welcome back! Please enter your details to login.</p>
+    </div>
+</section>
+<section class="auth">
+    <div class="auth-box">
+        <h2>Login</h2>
+        <form method="POST" action="/login">
+            <label for="user_name">Username:</label>
+            <input type="text" name="user_name" id="user_name" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required><br><br>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="{{ 'register' }}">Register here</a></p>
+    </div>
+</section>
+<section class="footer">
+    <ul>
+        <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+        <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+    </ul>
+</section>
+
+</body>
+</html>

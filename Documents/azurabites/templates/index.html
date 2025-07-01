@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | AZ</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME to AzuraBites</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ 'home'}}">Home</a></li>
+                <li><a href="{{'about'}}">About</a></li>
+                <li><a href="{{'ingredients'}}">Ingredients</a></li>
+                <li><a href="{{'membership'}}">Memberships</a></li>
+                <li><a href="{{'login'}}">Login</a></li>
+                <li><a href="{{ 'logout' }}">Logout</a></li>
+                <li><a href="{{'orders'}}">Past Orders</a></li>
+                <li><a href="{{'checkout'}}">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p>Keto Diet in Pakistan</p>
+            <h2>Keto Diet - Healthy, Fresh & Organic</h2>
+            <div class="hero-buttons">
+                <button><a href="{{'register'}}">Register Now →</a></button>
+                <button><a href="{{'membership'}}">Diet Plans →</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 AzuraBites. All rights reserved.</p>
+        <p>Contact: business@example.com</p>
+    </footer>
+</body>
+
+</html>

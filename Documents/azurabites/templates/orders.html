@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='orders.css')}}">
+</head>
+<body>
+    <h1>Order History</h1>
+    <header> 
+         <nav>
+        <li>
+            <li>
+                <a href="{{ 'home'}}">Home</a>
+                <a href="{{'about'}}">About</a>
+                <a href="{{'ingredients'}}">Ingridients</a>
+                <a href="{{'membership'}}">Memberships</a>
+                <a href="{{'login'}}">Login</a>
+                <a href="{{ 'logout' }}">Logout</a>
+                <a href="{{'orders'}}">past orders</a>
+                <a href="{{'checkout'}}">checkout</a>
+            </li>
+            
+        </li>
+    </nav>
+</header>
+    <table>
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>User Name</th>
+                <th>Order No</th>
+                <th>Purchase Date</th>
+                <th>Order Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if orders %}
+            {% for order in orders %}
+                <tr>
+                    <td>{{ order[0] }}</td>
+                    <td>{{ order[1] }}</td>
+                    <td>{{ order[2] }}</td>
+                    <td>{{ order[3] }}</td>
+                    <td>{{ order[4] }}</td>
+                </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+                <td colspan="5">No orders found.</td>
+            </tr>
+        {% endif %}
+        </tbody>
+    </table>
+</body>
+</html>
